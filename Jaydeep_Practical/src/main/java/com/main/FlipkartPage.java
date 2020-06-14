@@ -125,7 +125,6 @@ public class FlipkartPage {
 		driver.findElement(By.xpath("//span[contains(text(),'Check')]")).click();
 		String getthelocationonchangecode= driver.findElement(By.xpath("//div[@class='_2LG8B7']/span")).getText();
 		System.out.println(getthelocationonchangecode);
-		driver.close();
 		driver.quit();
 	}
 
